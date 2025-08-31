@@ -1,0 +1,20 @@
+{
+  "name": "crescita-config-kit",
+  "private": true,
+  "engines": {
+    "pnpm": ">= 9"
+  },
+  "version": "1.0.0",
+  "description": "crescita's config kit",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "changeset version && pnpm -r publish --no-git-checks",
+    "changeset": "changeset"
+  },
+  "keywords": [],
+  "author": "finn",
+  "license": "MIT"
+}
