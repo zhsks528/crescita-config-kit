@@ -1,32 +1,30 @@
 {
     "name": "@crescita/stylelint-config-crescita",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "crescita's Stylelint config",
     "homepage": "https://github.com/zhsks528/crescita-config-kit",
     "bugs": {
-      "url": "https://github.com/zhsks528/crescita-config-kit/issues"
+        "url": "https://github.com/zhsks528/crescita-config-kit/issues"
     },
     "repository": {
-      "type": "git",
-      "url": "git://github.com/zhsks528/crescita-config-kit.git",
-      "directory": "packages/stylelint-config-crescita"
+        "type": "git",
+        "url": "git://github.com/zhsks528/crescita-config-kit.git",
+        "directory": "packages/stylelint-config-crescita"
     },
     "license": "MIT",
     "main": "stylelint.cjs",
     "files": [
-      "*.js"
+        "*.js"
     ],
     "publishConfig": {
-      "access": "public"
+        "access": "public"
     },
     "peerDependencies": {
-      "stylelint": "^16.0.0",
-      "stylelint-config-recommended": "^14.0.0",
-      "stylelint-config-prettier": "^9.0.0",
-      "stylelint-config-css-modules": "^4.4.0",
-      "stylelint-order": "^6.0.4",
-      "@stylelint/postcss-css-in-js": "^0.38.0",
-      "postcss-scss": "^4.0.9"
+        "postcss-scss": "^4.0.9",
+        "postcss-styled-syntax": "^0.7.1",
+        "stylelint": "^16.0.0",
+        "stylelint-config-css-modules": "^4.4.0",
+        "stylelint-config-recommended": "^14.0.0",
+        "stylelint-order": "^6.0.4"
     }
-  }
-  
+}

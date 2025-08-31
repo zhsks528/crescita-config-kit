@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     "stylelint-config-recommended",
     "stylelint-config-css-modules",
-    "stylelint-config-prettier"
   ],
   plugins: ["stylelint-order"],
   rules: {
@@ -67,7 +66,7 @@ module.exports = {
   },
   overrides: [
     { files: ["**/*.{css,scss}"], customSyntax: "postcss-scss" },
-    { files: ["**/*.{js,jsx,ts,tsx}"], customSyntax: "@stylelint/postcss-css-in-js" }
+    { files: ["**/*.{js,jsx,ts,tsx}"], customSyntax: "postcss-styled-syntax" }
   ],
   
   ignoreFiles: [
