@@ -12,8 +12,7 @@
       "directory": "packages/stylelint-config-crescita"
     },
     "license": "MIT",
-    "type": "module",
-    "main": "stylelint.js",
+    "main": "stylelint.cjs",
     "files": [
       "*.js"
     ],

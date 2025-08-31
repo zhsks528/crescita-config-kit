@@ -25,7 +25,9 @@ pnpm add --save-dev stylelint @crescita/stylelint-config-crescita
 
 ```json
 {
-  "stylelint": "@crescita/stylelint-config-crescita"
+  "stylelint": {
+    "extends": "@crescita/stylelint-config-crescita"
+  }
 }
 ```
 
