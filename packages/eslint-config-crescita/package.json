@@ -1,6 +1,6 @@
 {
   "name": "@crescita/eslint-config-crescita",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "crescita's eslint config",
   "homepage": "https://github.com/zhsks528/crescita-config-kit",
   "bugs": {
@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "type": "module",
-  "main": ".eslintrc.json",
+  "main": "eslint.config.js",
   "publishConfig": {
     "access": "public"
   },
