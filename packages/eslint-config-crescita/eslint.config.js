@@ -4,7 +4,6 @@ import { fileURLToPath } from "url";
 import { dirname } from "path";
 
 import tsParser from "@typescript-eslint/parser";
-import * as ts from "@typescript-eslint/eslint-plugin";
 import importPlugin from "eslint-plugin-import";
 import promise from "eslint-plugin-promise";
 import unused from "eslint-plugin-unused-imports";
@@ -48,7 +47,6 @@ export default [
   },
   {
     plugins: {
-      "@typescript-eslint": ts,
       import: importPlugin,
       promise,
       "unused-imports": unused,
